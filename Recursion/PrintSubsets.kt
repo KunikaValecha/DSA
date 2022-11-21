@@ -10,7 +10,7 @@ class PrintSubsets {
             }
             var output1 = output
             var output2 = output
-            output2 = i.first().toString()
+            output2 = output2.plus(i.first().toString())
             i = i.substring(1, i.length)
             getSubsets(i, output1)
             getSubsets(i, output2)

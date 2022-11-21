@@ -22,5 +22,6 @@ fun main() {
     val s = ReverseAStack.reverse(ArrayDeque(listOf(1,2,3,4,5,6,7)))
     for(i in s){
         print(" $i")
+
     }
 }
