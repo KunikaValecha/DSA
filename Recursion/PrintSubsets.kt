@@ -20,5 +20,5 @@ class PrintSubsets {
 }
 
 fun main() {
-    PrintSubsets.getSubsets("ab", "")
+    PrintSubsets.getSubsets("abc", "")
 }
